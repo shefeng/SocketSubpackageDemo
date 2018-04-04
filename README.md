@@ -4,6 +4,8 @@
 代码如下：
 
 
+
+```javascript
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
 import java.io.File;
@@ -15,7 +17,7 @@ import java.net.Socket;
 
 public class SocketServerDemo {
 
-	private static ServerSocket ss;
+    private static ServerSocket ss;
 
 	public static void main(String[] args) throws Exception {
 
@@ -127,3 +129,4 @@ public class SocketServerDemo {
 		return buffer;
 	}
 }
+```
